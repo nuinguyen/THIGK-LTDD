@@ -75,12 +75,12 @@ public class PlayActivity extends AppCompatActivity implements View.OnClickListe
 
     private List<Song> getlistSong() {
         List<Song> list = new ArrayList<>();
-        list.add(new Song("1","What",R.raw.a));
-        list.add(new Song("2","Are",R.raw.a));
-        list.add(new Song("3","You",R.raw.a));
-        list.add(new Song("4","Doing",R.raw.a));
-        list.add(new Song("5","So",R.raw.a));
-        list.add(new Song("6","Max",R.raw.a));
+        list.add(new Song("1","What",R.raw.Cuoithoi));
+        list.add(new Song("2","Are",R.raw.Duongtoichoemve));
+        list.add(new Song("3","You",R.raw.Gu));
+        list.add(new Song("4","Doing",R.raw.Huong));
+        list.add(new Song("5","So",R.raw.Phodalenden));
+        list.add(new Song("6","Max",R.raw.TellUrMom));
         return list;
     }
     @Override
